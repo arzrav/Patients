@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/list_item_reception_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="8dp"
+        android:gravity="center"
+        android:text="@string/patient_review_reception_title"/>
+
+    <TextView
+        android:id="@+id/list_item_reception_date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/list_item_reception_title_text_view"
+        android:paddingBottom="8dp"
+        android:gravity="center"
+        android:text="@string/patient_review_reception_date"/>
+
+    <Space
+        android:id="@+id/list_item_reception_text_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_reception_date_text_view"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/list_item_reception_before_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/list_item_reception_date_text_view"
+        android:layout_toStartOf="@id/list_item_reception_text_space"
+        android:paddingBottom="8dp"
+        android:gravity="center"
+        android:text="@string/patient_review_before_title"/>
+
+    <TextView
+        android:id="@+id/list_item_reception_after_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@id/list_item_reception_date_text_view"
+        android:layout_toEndOf="@id/list_item_reception_text_space"
+        android:paddingBottom="8dp"
+        android:gravity="center"
+        android:text="@string/patient_review_after_title"/>
+
+    <Space
+        android:id="@+id/list_item_reception_image_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_reception_after_text_view"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/list_item_reception_before_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/list_item_reception_after_text_view"
+        android:layout_toStartOf="@id/list_item_reception_image_space"
+        android:gravity="center"
+        android:contentDescription="@string/description_main_image_before"
+        app:srcCompat="@mipmap/ic_launcher"/>
+
+    <ImageView
+        android:id="@+id/list_item_reception_after_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/list_item_reception_after_text_view"
+        android:layout_toEndOf="@id/list_item_reception_image_space"
+        android:gravity="center"
+        android:contentDescription="@string/description_main_image_after"
+        app:srcCompat="@mipmap/ic_launcher"/>
+
+
+</RelativeLayout>

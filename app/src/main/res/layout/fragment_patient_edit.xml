@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:mask="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/patient_last_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="textCapSentences|textNoSuggestions"
+            android:hint="@string/patient_last_name_title_hint"/>
+
+        <EditText
+            android:id="@+id/patient_first_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="textCapSentences|textNoSuggestions"
+            android:hint="@string/patient_first_name_title_hint"/>
+
+        <EditText
+            android:id="@+id/patient_middle_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="textCapSentences|textNoSuggestions"
+            android:hint="@string/patient_middle_name_title_hint"/>
+
+        <EditText
+            android:id="@+id/patient_birthday_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/patient_birthday_hint"/>
+
+        <br.com.sapereaude.maskedEditText.MaskedEditText
+            android:id="@+id/patient_mobile_phone_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="number"
+            mask:allowed_chars="1234567890"
+            mask:mask="+# (###) ### - ## - ##"
+            android:hint="@string/patient_mobile_phone_hint"/>
+
+        <EditText
+            android:id="@+id/patient_email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="textEmailAddress|textNoSuggestions"
+            android:maxLength="50"
+            android:hint="@string/patient_email_hint"/>
+
+        <Button
+            android:id="@+id/patient_card_create_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/create_button"/>
+
+    </LinearLayout>
+</ScrollView>

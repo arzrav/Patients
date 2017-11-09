@@ -1,0 +1,95 @@
+<resources>
+    
+    <plurals name="plurals_age">
+        <item quantity="one">%1$d год</item>
+        <item quantity="few">%1$d года</item>
+        <item quantity="many">%1$d лет</item>
+        <item quantity="other">%1$d лет</item>
+    </plurals>
+    
+    <string name="app_name">Doctor\'s portfolio</string>
+
+    <string name="menu_item_new_patient">Новый пациент</string>
+    <string name="menu_item_new_reception">Новый прием</string>
+    <string name="menu_item_new_tag">Добавить тег</string>
+    <string name="menu_item_remove_tag">Удалить тег</string>
+    <string name="menu_item_sort">Сортировка</string>
+    <string name="menu_item_sort_by_last_name">Сортировать по фамилии</string>
+    <string name="menu_item_sort_by_birthday">Сортировать по возрасту</string>
+    <string name="menu_item_sort_by_tags">Сортировать по тегам</string>
+    <string name="menu_item_sort_by_default">По умолчанию</string>
+
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_about">О программе</string>
+    <string name="menu_report">Сообщить об ошибке</string>
+    <string name="menu_telegram">Канал Telegram</string>
+
+    <string name="patient_list_title_label">Пациенты</string>
+
+    <string name="patient_edit_title_label">Заполнение карточки</string>
+    <string name="patient_first_name_title_hint">Имя</string>
+    <string name="patient_middle_name_title_hint">Отчество</string>
+    <string name="patient_last_name_title_hint">Фамилия</string>
+    <string name="patient_birthday_hint">ДД/ММ/ГГГГ</string>
+    <string name="patient_mobile_phone_hint">71234567890</string>
+    <string name="patient_email_hint">example@mail.com</string>
+    <string name="patient_history_hint">История пациента</string>
+
+    <string name="patient_review_title_label">Информация о пациенте</string>
+    <string name="patient_review_full_name_title">Фамилия Имя Отчество</string>
+    <string name="patient_review_age_title">Возраст</string>
+    <string name="patient_review_receptions_title">Приемы</string>
+    <string name="patient_review_before_title">До</string>
+    <string name="patient_review_after_title">После</string>
+    <string name="patient_review_reception_title">Заголовок приема</string>
+    <string name="patient_review_reception_date">Дата приема</string>
+
+    <string name="reception_edit_title_label">Прием</string>
+    <string name="reception_history_hint">История приема</string>
+
+    <string name="patient_delete_dialog_title">Удалить карточку пациента?</string>
+    <string name="patient_delete_dialog_message">Вместе с карточкой будет удалена вся сопутствующая информация о пациенте: его приемы, история болезни и фотографии.</string>
+
+    <string name="reception_delete_dialog_title">Удалить прием?</string>
+    <string name="reception_delete_dialog_message">Вся содержащаяся в приеме информация будет удалена.</string>
+
+    <string name="image_delete_dialog_title">Удалить изображение?</string>
+    <string name="image_delete_dialog_message">Изображение будет удалено.</string>
+
+    <string name="photo_gallery_title_label">Галерея</string>
+
+    <string name="new_tag_dialog_title">Добавить новый тег:</string>
+    <string name="new_tag_title_hint">Введите тег</string>
+
+    <string name="select_tags_dialog_title">Выберите теги</string>
+    <string name="select_tags_check_box_text">Только те, у кого есть все указанные теги</string>
+
+    <string name="remove_tag_dialog_title">Удалить тег</string>
+
+    <string name="alert_patient_edit_patient_not_created">Пациент не был создан, так как не все обязательные поля были корректно заполнены.</string>
+    <string name="alert_patient_list_new_patient_created">Новый пациент успешно создан.</string>
+    <string name="alert_patient_list_patient_changed">Данные о пациенте были успешно изменены.</string>
+
+    <string name="description_edit_icon">Изменить</string>
+    <string name="description_delete_icon">Удалить</string>
+    <string name="description_main_image_before">Изображение до</string>
+    <string name="description_main_image_after">Изображение после</string>
+
+    <string name="create_button">Создать</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="data_storage">Место хранения данных</string>
+
+    <string name="about_app_title_text_view"><![CDATA[<h1>Doctor\'s portfolio</h1>
+                                                      <small>Версия 1.0, Copyright © 2017 Артур Матвеев</small>]]></string>
+    <string name="about_links_text_view"><![CDATA[<p>В приложении используются иконки с сайта <a href="https://icons8.com">icons8.com</a> за что им большое спасибо.
+                                                  Если вам когда-нибудь понадобятся иконки, то можете взять их там.</p>
+                                                  <p>В программе используются указанные сторонние библиотеки и программный код:</p>
+                                                  <p>Picasso - Copyright 2013 Square, Inc. - Apache License, Version 2.0<br/>
+                                                  Joda-Time - Apache License, Version 2.0<br/>
+                                                  PhotoView - Copyright 2017 Chris Banes - Apache License, Version 2.0<br/>
+                                                  edittext-mask - Copyright © 2014 Slava Egorenkov - The MIT License (MIT)</p>]]></string>
+
+</resources>
